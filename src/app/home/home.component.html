@@ -1,1 +1,31 @@
-<p>home works!</p>
+<h1>Título</h1>
+<hr />
+
+<p>
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo et tempore
+  aliquam fugit iure odit nam, labore veritatis pariatur nemo accusamus eos
+  numquam quas placeat enim sunt. Corrupti, cupiditate soluta!
+</p>
+
+<h2>Título 2</h2>
+<p>
+  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis quam rem
+  amet, molestiae tenetur officia similique numquam dolores. Labore sequi
+  repellat fugit tempora. Autem minima nostrum nisi illum laborum ipsa.
+</p>
+
+<h2>Título 3</h2>
+<app-cv
+  *ngFor="let job of jobs"
+  [title]="job.title"
+  [ps]="job.p"
+  [icons]="job.icons"
+></app-cv>
+
+<h2>Título 4</h2>
+<app-cv
+  *ngFor="let study of studies"
+  [title]="study.title"
+  [ps]="study.p"
+  [icons]="study.icons"
+></app-cv>
