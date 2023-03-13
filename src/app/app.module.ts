@@ -3,9 +3,14 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { ReactiveFormsModule } from '@angular/forms';
 import { HomeComponent } from './home/home.component';
 import { ContactComponent } from './contact/contact.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { FooterComponent } from './footer/footer.component';
+import { RecaptchaV3Module, RECAPTCHA_V3_SITE_KEY } from 'ng-recaptcha';
+import { environment } from '../environments/environment.development';
+import { CvComponent } from './cv/cv.component';
 
 @NgModule({
   declarations: [
@@ -13,9 +18,21 @@ import { NavbarComponent } from './navbar/navbar.component';
     HomeComponent,
     ContactComponent,
     NavbarComponent,
+    FooterComponent,
+    CvComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule],
-  providers: [],
+  imports: [
+    BrowserModule,
+    ReactiveFormsModule,
+    RecaptchaV3Module,
+    AppRoutingModule,
+  ],
+  providers: [
+    {
+      provide: RECAPTCHA_V3_SITE_KEY,
+      useValue: environment.recaptcha.siteKey,
+    },
+  ],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
