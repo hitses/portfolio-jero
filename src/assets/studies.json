@@ -1,0 +1,37 @@
+{
+  "studies": [
+    {
+      "title": "GeeksHubs",
+      "p": [
+        "Todo lo que aprendí de manera práctica y orientado a empresas me lo ofrecieron en este BootCamp de España: <a href=\"https://geekshubsacademy.com/\" target=\"_blank\">GeeksHubs Academy</a>. Fue una oportunidad única e inolvidable y fueron ellos los que se pusieron en contacto conmigo.",
+        "Aquí hay mucho que contar, ya que fue un aprendizaje intensivo de 12 semanas. Estudiamos las bases de la web con HTML y CSS3 y SCSS como preprocesador de estilos junto a la lógica con Javascript. Construímos un backend con Node.JS y Express junto al motor de plantillas Handlebars. Utilizamos bases de datos relacionales con MySQL con el ORM Sequalize y no relacionales con MongoDB y el ORM Mongoose.",
+        "Creamos varios frontends con React junto a un poquito de Redux y Angular 2+ junto con Typescript. Alejándonos un poco del código, practicamos Git y utilizamos el repositorio cloud GitHub. Y, para finalizar, estuvimos estudiando y practicando todos los días la metodología ágil SCRUM. Ahora que lo veo en conjunto y detenidamente, ¡hicimos muchas cosas!"
+      ],
+      "icons": [
+        "html",
+        "css",
+        "scss",
+        "javascript",
+        "node",
+        "handlebars",
+        "mysql",
+        "mongo",
+        "react",
+        "redux",
+        "angular",
+        "typescript",
+        "git",
+        "github",
+        "scrum"
+      ]
+    },
+    {
+      "title": "Grado superior de Desarrollo de aplicaciones web",
+      "p": [
+        "Y, por fin, acabamos en el principio de la historia. Mi primera experiencia con la programación fue en mis años mozos (aún más si cabe) en el FP Superior de programación web del <a href=\"https://iessanvicente.com/alu/daw/index.php\" target=\"_blank\">IES San Vicente</a>, donde pude acceder a titulación oficial en esta materia.",
+        "Lo que pude estudiar aquí fue bastante variado, entre otras cosas Java o PHP pero se quedaron en meras enseñanzas y teorías, puesto que nunca he realizado ningún trabajo en empresas que las necesitaran. Pero en la parte web del segundo año vimos HTML y CSS, bases de datos relacionales con MySQL, Javascript y alguna práctica de DevOps pero, como he mencionado con Java o PHP, se quedó en los apuntes."
+      ],
+      "icons": ["html", "css", "mysql", "javascript"]
+    }
+  ]
+}
