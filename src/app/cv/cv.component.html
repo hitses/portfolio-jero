@@ -1,1 +1,11 @@
-<p>cv works!</p>
+<h3 (click)="toggle()">{{ title }} {{ isHidden ? "+" : "-" }}</h3>
+<div *ngIf="!isHidden" class="hidde">
+  <p *ngFor="let p of ps" [innerHtml]="p"></p>
+
+  <img
+    *ngFor="let icon of icons"
+    class="f-icon"
+    src="./assets/imgs/icons/{{ icon }}.svg"
+    alt=""
+  />
+</div>
