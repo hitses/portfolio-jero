@@ -1,1 +1,22 @@
-<p>contact works!</p>
+<form [formGroup]="contact" (ngSubmit)="send()">
+  <label [ngClass]="{ error: invalidField('name') }">{{
+    !invalidField("name") ? "Name" : "Name with minimum 2 characters"
+  }}</label>
+  <input type="text" formControlName="name" />
+  <label [ngClass]="{ error: invalidField('email') }">{{
+    !invalidField("email") ? "Email" : "Invalid email"
+  }}</label>
+  <input type="text" formControlName="email" />
+  <label [ngClass]="{ error: invalidField('subject') }">{{
+    !invalidField("subject") ? "Subject" : "Subject with minimum 2 characters"
+  }}</label>
+  <input type="text" formControlName="subject" />
+  <label [ngClass]="{ error: invalidField('message') }">{{
+    !invalidField("message") ? "Message" : "Message with minimum 2 characters"
+  }}</label>
+  <textarea formControlName="message"></textarea>
+  <button *ngIf="!sending" [disabled]="mailSended" type="submit">
+    {{ mailSended ? "✔︎" : "Send" }}
+  </button>
+  <button *ngIf="sending" disabled type="submit">Sending...</button>
+</form>
