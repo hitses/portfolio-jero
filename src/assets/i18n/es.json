@@ -1,0 +1,85 @@
+{
+  "navbar": {
+    "home": "Inicio",
+    "contact": "Contacto",
+    "download": {
+      "title": "Descargar CV",
+      "file": "./assets/files/dogEs.png"
+    },
+    "flags": {
+      "es": "Bandera española",
+      "en": "Bandera inglesa"
+    }
+  },
+  "home": {
+    "title": "Soy Jerónimo Gascón",
+    "subtitle": "Chico de un pueblo entre el interior y la costa. Soy desarrollador web en España. Me encanta NodeJS. Me encanta el backend. Llevo más de 4 años programando, de los cuales 3 los he dedicado a backend.",
+    "title2": "Actualmente...",
+    "subtitle2": "Vivo en pareja y me mantengo en forma gracias al mejor deporte del mundo: el frontenis. También me gusta escribir historias. A veces para mis amigos, otras para cualquier persona y, en muy contadas ocasiones, para mí mismo. De hecho, te voy a contar mi historia. Pero no te preocupes que no va a ser larga.",
+    "jobsTitle": "Hablemos de trabajo",
+    "jobs": [
+      {
+        "title": "Capgemini",
+        "paragraphs": [
+          "Ahora trabajo en una empresa francesa llamada <a href='https://www.capgemini.com/es-es/' target='_blank'>Capgemini</a>. El sitio es estupendo, y me permite hacer cosas tan molonas como llevar proyectos en solitario o junto a compañeros igual o más buenos que yo. Seguro que os suena la aseguradora Mapfre.",
+          "Las tareas que suelo realizar son la implementación y mejora de funcionalidades en la parte back de proyectos de gran importancia. La tecnología que más suelo utilizar es NodeJS en la parte de servidor junto a Express en la mayoría de casos. Pero en alguna otra uso tecnologías de vanguardia como el serverless con lambdas de AWS."
+        ],
+        "icons": ["javascript", "node", "aws", "dynamo"]
+      },
+      {
+        "title": "Teralco",
+        "paragraphs": [
+          "Pero antes de eso estuve en una empresa española de Elche: <a href='https://teralco.com/' target='_blank'>Teralco</a>. Un lugar en el que noté como mis habilidades como programador dieron un salto colosal. El nivel de preocupación de la empresa por sus empleados era lo que más cuidaban.",
+          "¿Y qué estuve haciendo en mi estancia en esta empresa? Pues auténticas maravillas. Desde la creación de un servidor para un cliente de Estados Unidos en el sector de la medicina con NodeJS, ExpressJS y MongoDB hasta renovar el frontend de Paco Rabanne con Angular. No todo es backend."
+        ],
+        "icons": ["javascript", "typescript", "node", "mongo", "angular"]
+      },
+      {
+        "title": "NTT Data",
+        "paragraphs": [
+          "¿Pero hubo algo anteriormente? Sí, una empresa que me abrió los brazos cuando se lo pedí. Era joven (un momento, sigo siendo joven) y algo inexperto en el mundo del desarrollo web. Pero con unas ganas inmensas de aprender, <a href='https://es.nttdata.com/' target='_blank'>NTT Data</a> me acogió como a un hijo.",
+          "Aquí tuve verdaderos retos por delante. Me asignaron a proyectos increíbles con una inmensidad de tecnologías. Pude mejorar en NodeJS con Express, utilicé MongoDB, PostgreSQL, DynamoDB, MySQL, Angular en el frontend y React en la parte móvil, aprendí a usar Python para mantener ETLs y todo eso en un entorno cloud de AWS... ¡Es un buen puñado de tecnologías!"
+        ],
+        "icons": [
+          "javascript",
+          "typescript",
+          "node",
+          "mongo",
+          "postgre",
+          "dynamo",
+          "mysql",
+          "angular",
+          "react",
+          "python"
+        ]
+      },
+      {
+        "title": "Lotería el Negrito",
+        "paragraphs": [
+          "Y llegamos al comienzo. ¿Os acordáis de vuestro primer amor? Pues esto es parecido. Estás nervioso por cómo saldrá, piensas si estás haciendo las cosas bien pero estás dispuesto a hacerlo lo mejor posible y por algún sitio hay que empezar. Eso es lo que me sucedió a mí en <a href='https://www.loteriaelnegrito.com/' target='_blank'>Lotería el Negrito</a>. En este lugar me llevo de los mejores recuerdos con compañeros inolvidables. ¡Os quiero, chicos!",
+          "Cuando echas la vista atrás y te acuerdas de cómo empezó todo, en algunos momentos te echas las manos a la cabeza pero en general lo recuerdas todo con mucho cariño. Aquí es donde empecé a trabajar con Angular y NodeJS con ExpressJS, implementando funcionalidades para proyectos de la propia empresa. Una startup en toda regla. Aquí MySQL era la reina de las bases de datos. Typescript fue un protagonista de la mitad de estos entrañables proyectos."
+        ],
+        "icons": ["javascript", "typescript", "node", "mysql", "angular"]
+      }
+    ],
+    "studies": {
+      "title": "Puedo trabajar como desarrollador web gracias a mis estudios",
+      "geekshubs": {
+        "title": "Academia GeeksHubs",
+        "paragraphs": [
+          "Todo lo que aprendí de manera práctica y orientado a empresas me lo ofrecieron en este BootCamp de España: <a href='https://geekshubsacademy.com/' target='_blank'>GeeksHubs Academy</a>. Fue una oportunidad única e inolvidable y fueron ellos los que se pusieron en contacto conmigo.",
+          "Aquí hay mucho que contar, ya que fue un aprendizaje intensivo de 12 semanas. Estudiamos las bases de la web con HTML y CSS3 y SCSS como preprocesador de estilos junto a la lógica con Javascript.",
+          "Construímos un backend con Node.JS y Express junto al motor de plantillas Handlebars. Utilizamos bases de datos relacionales con MySQL con el ORM Sequalize y no relacionales con MongoDB y el ORM Mongoose.",
+          "Creamos varios frontends con React junto a un poquito de Redux y Angular 2+ junto con Typescript. Alejándonos un poco del código, practicamos Git y utilizamos el repositorio cloud GitHub. Y, para finalizar, estuvimos estudiando y practicando todos los días la metodología ágil SCRUM. Ahora que lo veo en conjunto y detenidamente, ¡hicimos muchas cosas!"
+        ]
+      },
+      "fp": {
+        "title": "Grado superior de Desarrollo de aplicaciones web",
+        "paragraphs": [
+          "Y, por fin, acabamos en el principio de la historia. Mi primera experiencia con la programación fue en mis años mozos (aún más si cabe) en el FP Superior de programación web del <a href='https://iessanvicente.com/alu/daw/index.php' target='_blank'>IES San Vicente</a>, donde pude acceder a titulación oficial en esta materia.",
+          "Lo que pude estudiar aquí fue bastante variado, entre otras cosas Java o PHP pero se quedaron en meras enseñanzas y teorías, puesto que nunca he realizado ningún trabajo en empresas que las necesitaran. Pero en la parte web del segundo año vimos HTML y CSS, bases de datos relacionales con MySQL, Javascript y alguna práctica de DevOps pero, como he mencionado con Java o PHP, se quedó en los apuntes."
+        ]
+      }
+    }
+  }
+}

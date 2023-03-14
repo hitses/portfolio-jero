@@ -1,0 +1,85 @@
+{
+  "navbar": {
+    "home": "Home",
+    "contact": "Contact",
+    "download": {
+      "title": "Download CV",
+      "file": "./assets/files/dogEn.jpg"
+    },
+    "flags": {
+      "es": "Spanish flag",
+      "en": "British flag"
+    }
+  },
+  "home": {
+    "title": "I'm Jerónimo Gascón",
+    "subtitle": "Boy from a town between the interior and the coast. I'm a web developer in Spain. I love NodeJS. I love the backendI have been programming for more than 4 years, of which 3 I have dedicated them to the backend.",
+    "title2": "Currently...",
+    "subtitle2": "I live as a couple and I keep fit thanks to the best sport in the world: frontennis. I also like to write stories. Sometimes for my friends, other times for anyone and, very rarely, for myself. In fact, I'm going to tell you my story. But don't worry, it won't be long.",
+    "jobsTitle": "Let's talk about work",
+    "jobs": [
+      {
+        "title": "Capgemini",
+        "paragraphs": [
+          "I now work for a French company called <a href='https://www.capgemini.com/' target='_blank'>Capgemini</a>. The site is great, and it allows me to do such cool things as carry out projects alone or together with colleagues who are just as good or even better than me.",
+          "Tasks that I usually carry out are the implementation and improvement of functionalities in the back part of projects of great importance. The technology that I use the most is NodeJS on the server part together with Express in most cases. But in some other ways, I use cutting-edge technologies such as serverless with AWS lambdas."
+        ],
+        "icons": ["javascript", "node", "aws", "dynamo"]
+      },
+      {
+        "title": "Teralco",
+        "paragraphs": [
+          "But before that I was in a Spanish company from Elche: <a href='https://teralco.com/' target='_blank'>Teralco</a>. A place where I noticed how my programming skills took a colossal leap. The company's level of concern for its employees was what they cared about the most.",
+          "And what was I doing during my stay in this company? Well, true wonders. From the creation of a server for a US client in the medical sector with NodeJS, ExpressJS and MongoDB to revamping Paco Rabanne's frontend with Angular. Not everything is backend."
+        ],
+        "icons": ["javascript", "typescript", "node", "mongo", "angular"]
+      },
+      {
+        "title": "NTT Data",
+        "paragraphs": [
+          "But was there something before? Yes, a company that opened its arms to me when I asked. I was young (wait, I'm still young) and inexperienced in the world of web development. But with an immense desire to learn, <a href='https://www.nttdata.com/global/en/' target='_blank'>NTT Data</a> welcomed me like a son.",
+          "Here I had real challenges ahead. I was assigned to incredible projects with a myriad of technologies. I was able to improve in NodeJS with Express, I used MongoDB, PostgreSQL, DynamoDB, MySQL, Angular in the frontend and React in the mobile part, I learned to use Python to maintain ETLs and all that in an AWS cloud environment... It's a good bunch of technologies!"
+        ],
+        "icons": [
+          "javascript",
+          "typescript",
+          "node",
+          "mongo",
+          "postgre",
+          "dynamo",
+          "mysql",
+          "angular",
+          "react",
+          "python"
+        ]
+      },
+      {
+        "title": "Lotería el Negrito",
+        "paragraphs": [
+          "But was there something before? Yes, a company that opened its arms to me when I asked. I was young (wait, I'm still young) and inexperienced in the world of web development. But with an immense desire to learn, <a href='https://www.nttdata.com/global/en/' target='_blank'>NTT Data</a> welcomed me like a son.",
+          "Here I had real challenges ahead. I was assigned to incredible projects with a myriad of technologies. I was able to improve in NodeJS with Express, I used MongoDB, PostgreSQL, DynamoDB, MySQL, Angular in the frontend and React in the mobile part, I learned to use Python to maintain ETLs and all that in an AWS cloud environment... It's a good bunch of technologies!"
+        ],
+        "icons": ["javascript", "typescript", "node", "mysql", "angular"]
+      }
+    ],
+    "studies": {
+      "title": "I can work as a web developer thanks to my studies",
+      "geekshubs": {
+        "title": "GeeksHubs Academy",
+        "paragraphs": [
+          "Everything I learned in a practical and business-oriented way was offered to me at this BootCamp in Spain: <a href='https://geekshubsacademy.com/' target='_blank'>GeeksHubs</a>. It was a unique and unforgettable opportunity and they were the ones who contacted me.",
+          "There is a lot to tell here, since it was an intensive learning of 12 weeks. We studied the basics of the web with HTML and CSS3 and SCSS as a style preprocessor together with the logic with Javascript.",
+          "We built a backend with Node.JS and Express.JS together with the Handlebars template engine. We used relational databases with MySQL with the Sequalize ORM and non-relational with MongoDB and the Mongoose ORM.",
+          "We created several frontends with React together to a little bit of Redux and Angular 2+ together with Typescript. Moving away from the code, we practiced Git and used the GitHub cloud repository. And, finally, we were studying and practicing every day the agile methodology SCRUM. Now that I see it all together and closely, we did a lot of things!"
+        ]
+      },
+      "fp": {
+        "title": "Advanced degree in Web Application Development",
+        "paragraphs": [
+          "And, finally, we end up at the beginning of the story. My first experience with programming was when I was young (even more so if possible) in the Advanced degree course in web programming at <a href='https://iessanvicente.com/alu/daw/index.php' target='_blank '>IES San Vicente</a>, where I was able to access an official degree in this subject.",
+          "What I was able to study here was quite varied, among other things, Java or PHP, but they remained mere teachings and theories, since I have never done any work in companies that needed them. But in the web part of the second year we saw HTML and CSS, relational databases with MySQL, Javascript and some DevOps practice but, as I mentioned with Java or PHP, it was left in the notes."
+        ]
+      }
+    }
+  }
+}
