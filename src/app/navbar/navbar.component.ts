@@ -7,18 +7,10 @@ import { TranslateService } from '@ngx-translate/core';
   styleUrls: ['./navbar.component.scss'],
 })
 export class NavbarComponent {
-  language: string = 'en';
+  constructor(private translate: TranslateService) {}
 
-  constructor(private translate: TranslateService) {
-    this.translate.use(
-      localStorage.getItem('language') ||
-        this.translate.getBrowserLang() ||
-        this.language
-    );
-  }
-
-  changeLanguage(language: string) {
-    this.translate.use(language);
-    localStorage.setItem('language', language);
+  changeLang(lang: string) {
+    localStorage.setItem('language', lang);
+    this.translate.use(lang);
   }
 }

@@ -6,10 +6,11 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./cv.component.scss'],
 })
 export class CvComponent {
-  @Input() title!: string;
-  @Input() ps!: string[];
+  @Input() company!: string;
+  @Input() date!: string;
+  @Input() paragraphs!: string[];
+  @Input() link!: string;
   @Input() icons!: string[];
-
   isHidden: boolean = true;
 
   toggle() {
