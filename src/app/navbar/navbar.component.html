@@ -5,9 +5,31 @@
       routerLinkActive="active"
       [routerLinkActiveOptions]="{ exact: true }"
     >
-      Home
+      {{ "navbar.home" | translate }}
     </li>
-    <li routerLink="/contact" routerLinkActive="active">Contact</li>
-    <li><a href="./assets/files/dogEn.jpg" download>Download CV</a></li>
+    <li routerLink="/contact" routerLinkActive="active">
+      {{ "navbar.contact" | translate }}
+    </li>
+    <li>
+      <a href="./assets/files/dogEn.jpg" download>{{
+        "navbar.download" | translate
+      }}</a>
+    </li>
+    <li>
+      <div>
+        <img
+          (click)="changeLang('es')"
+          src="./assets/flags/es.svg"
+          [alt]="'navbar.flags.es' | translate"
+          width="50px"
+        />
+        <img
+          (click)="changeLang('en')"
+          src="./assets/flags/gb.svg"
+          [alt]="'navbar.flags.en' | translate"
+          width="50px"
+        />
+      </div>
+    </li>
   </ul>
 </div>

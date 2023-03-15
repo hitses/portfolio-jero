@@ -23,7 +23,8 @@
         "git",
         "github",
         "scrum"
-      ]
+      ],
+      "link": "https://geekshubsacademy.com/"
     },
     {
       "title": "Grado superior de Desarrollo de aplicaciones web",
@@ -31,7 +32,8 @@
         "Y, por fin, acabamos en el principio de la historia. Mi primera experiencia con la programación fue en mis años mozos (aún más si cabe) en el FP Superior de programación web del <a href=\"https://iessanvicente.com/alu/daw/index.php\" target=\"_blank\">IES San Vicente</a>, donde pude acceder a titulación oficial en esta materia.",
         "Lo que pude estudiar aquí fue bastante variado, entre otras cosas Java o PHP pero se quedaron en meras enseñanzas y teorías, puesto que nunca he realizado ningún trabajo en empresas que las necesitaran. Pero en la parte web del segundo año vimos HTML y CSS, bases de datos relacionales con MySQL, Javascript y alguna práctica de DevOps pero, como he mencionado con Java o PHP, se quedó en los apuntes."
       ],
-      "icons": ["html", "css", "mysql", "javascript"]
+      "icons": ["html", "css", "mysql", "javascript"],
+      "link": "https://iessanvicente.com/alu/daw/index.php"
     }
   ]
 }

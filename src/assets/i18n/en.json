@@ -1,0 +1,82 @@
+{
+  "home": {
+    "jobs": {
+      "jobs": [
+        {
+          "company": "Capgemini",
+          "date": "2022 - present",
+          "link": "https://www.capgemini.com/",
+          "icons": ["javascript", "node", "aws", "dynamo"],
+          "paragraphs": [
+            "I now work for a French company called Capgemini. The site is great, and it allows me to do such cool things as carry out projects alone or together with colleagues who are just as good or even better than me.",
+            "Tasks that I usually carry out are the implementation and improvement of functionalities in the back part of projects of great importance. The technology that I use the most is NodeJS on the server part together with Express in most cases. But in some other ways, I use cutting-edge technologies such as serverless with AWS lambdas."
+          ]
+        },
+        {
+          "company": "Teralco",
+          "date": "2021 - 2022",
+          "link": "https://teralco.com/",
+          "icons": ["javascript", "typescript", "node", "mongo", "angular"],
+          "paragraphs": [
+            "But before that I was in a Spanish company from Elche named Teralco. A place where I noticed how my programming skills took a colossal leap. The company's level of concern for its employees was what they cared about the most.",
+            "And what was I doing during my stay in this company? Well, true wonders. From the creation of a server for a US client in the medical sector with NodeJS, ExpressJS and MongoDB to revamping Paco Rabanne's frontend with Angular. Not everything is backend."
+          ]
+        },
+        {
+          "company": "NTT Data",
+          "date": "2020 - 2021",
+          "link": "https://www.nttdata.com/global/en/",
+          "icons": [
+            "javascript",
+            "typescript",
+            "node",
+            "mongo",
+            "postgre",
+            "dynamo",
+            "mysql",
+            "angular",
+            "react",
+            "python"
+          ],
+          "paragraphs": [
+            "But was there something before? Yes, a company that opened its arms to me when I asked. I was young (wait, I'm still young) and inexperienced in the world of web development. But with an immense desire to learn, NTT Data welcomed me like a son.",
+            "Here I had real challenges ahead. I was assigned to incredible projects with a myriad of technologies. I was able to improve in NodeJS with Express, I used MongoDB, PostgreSQL, DynamoDB, MySQL, Angular in the frontend and React in the mobile part, I learned to use Python to maintain ETLs and all that in an AWS cloud environment... It's a good bunch of technologies!"
+          ]
+        },
+        {
+          "company": "Lotería el Negrito",
+          "date": "2019 - 2020",
+          "link": "https://www.loteriaelnegrito.com/",
+          "icons": ["javascript", "typescript", "node", "mysql", "angular"],
+          "paragraphs": [
+            "And we come to the beginning. Do you remember your first love? Well, this is similar. You are nervous about how it will turn out, you think if you are doing things right but you are willing to do your best and you have to start somewhere. That is what happened to me in Lotería el Negrito. In this place I take the best memories with unforgettable colleagues. I love you guys!",
+            "When you look back and remember how it all started, at times you put your head in your hands but in general you remember everything with great affection. This is where I started working with Angular and NodeJS with ExpressJS, implementing features for projects of the company itself. A full-fledged startup. Here MySQL was the queen of databases. Typescript was a protagonist of half of these endearing projects."
+          ]
+        }
+      ],
+      "title": "Let's talk about work"
+    },
+    "now": {
+      "paragraph": "I live as a couple and I keep fit thanks to the best sport in the world: frontennis. I also like to write stories. Sometimes for my friends, other times for anyone and, very rarely, for myself. In fact, I'm going to tell you my story. But don't worry, it won't be long.",
+      "title": "Currently..."
+    },
+    "presentation": [
+      "Boy from a town between the interior and the coast.",
+      "I'm a web developer in Spain. I love NodeJS. I love the backend",
+      "I have been programming since 2019 and since 2020 I have dedicated myself to the backend more exhaustively."
+    ],
+    "title": "I'm Jerónimo Gascón"
+  },
+  "navbar": {
+    "contact": "Contact",
+    "download": {
+      "file": "./assets/files/dogEn.jpg",
+      "title": "Download CV"
+    },
+    "flags": {
+      "en": "British flag",
+      "es": "Spanish flag"
+    },
+    "home": "Home"
+  }
+}

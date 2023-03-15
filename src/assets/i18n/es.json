@@ -1,0 +1,82 @@
+{
+  "home": {
+    "jobs": {
+      "jobs": [
+        {
+          "company": "Capgemini",
+          "date": "2022 - actualidad",
+          "link": "https://www.capgemini.com/es-es/",
+          "icons": ["javascript", "node", "aws", "dynamo"],
+          "paragraphs": [
+            "Ahora trabajo en una empresa francesa llamada Capgemini. El sitio es estupendo, y me permite hacer cosas tan molonas como llevar proyectos en solitario o junto a compañeros igual o más buenos que yo. Seguro que os suena la aseguradora Mapfre.",
+            "Las tareas que suelo realizar son la implementación y mejora de funcionalidades en la parte back de proyectos de gran importancia. La tecnología que más suelo utilizar es NodeJS en la parte de servidor junto a Express en la mayoría de casos. Pero en alguna otra uso tecnologías de vanguardia como el serverless con lambdas de AWS."
+          ]
+        },
+        {
+          "company": "Teralco",
+          "date": "2021 - 2022",
+          "link": "https://teralco.com/",
+          "icons": ["javascript", "typescript", "node", "mongo", "angular"],
+          "paragraphs": [
+            "Pero antes de eso estuve en una empresa española de Elche llamada Teralco. Un lugar en el que noté como mis habilidades como programador dieron un salto colosal. El nivel de preocupación de la empresa por sus empleados era lo que más cuidaban.",
+            "¿Y qué estuve haciendo en mi estancia en esta empresa? Pues auténticas maravillas. Desde la creación de un servidor para un cliente de Estados Unidos en el sector de la medicina con NodeJS, ExpressJS y MongoDB hasta renovar el frontend de Paco Rabanne con Angular. No todo es backend."
+          ]
+        },
+        {
+          "company": "NTT Data",
+          "date": "2020 - 2021",
+          "link": "https://es.nttdata.com/",
+          "icons": [
+            "javascript",
+            "typescript",
+            "node",
+            "mongo",
+            "postgre",
+            "dynamo",
+            "mysql",
+            "angular",
+            "react",
+            "python"
+          ],
+          "paragraphs": [
+            "¿Pero hubo algo anteriormente? Sí, una empresa que me abrió los brazos cuando se lo pedí. Era joven (un momento, sigo siendo joven) y algo inexperto en el mundo del desarrollo web. Pero con unas ganas inmensas de aprender, NTT Data me acogió como a un hijo.",
+            "Aquí tuve verdaderos retos por delante. Me asignaron a proyectos increíbles con una inmensidad de tecnologías. Pude mejorar en NodeJS con Express, utilicé MongoDB, PostgreSQL, DynamoDB, MySQL, Angular en el frontend y React en la parte móvil, aprendí a usar Python para mantener ETLs y todo eso en un entorno cloud de AWS... ¡Es un buen puñado de tecnologías!"
+          ]
+        },
+        {
+          "company": "Lotería el Negrito",
+          "date": "2019 - 2020",
+          "link": "https://www.loteriaelnegrito.com/",
+          "icons": ["javascript", "typescript", "node", "mysql", "angular"],
+          "paragraphs": [
+            "Y llegamos al comienzo. ¿Os acordáis de vuestro primer amor? Pues esto es parecido. Estás nervioso por cómo saldrá, piensas si estás haciendo las cosas bien pero estás dispuesto a hacerlo lo mejor posible y por algún sitio hay que empezar. Eso es lo que me sucedió a mí en Lotería el Negrito. En este lugar me llevo de los mejores recuerdos con compañeros inolvidables. ¡Os quiero, chicos!",
+            "Cuando echas la vista atrás y te acuerdas de cómo empezó todo, en algunos momentos te echas las manos a la cabeza pero en general lo recuerdas todo con mucho cariño. Aquí es donde empecé a trabajar con Angular y NodeJS con ExpressJS, implementando funcionalidades para proyectos de la propia empresa. Una startup en toda regla. Aquí MySQL era la reina de las bases de datos. Typescript fue un protagonista de la mitad de estos entrañables proyectos."
+          ]
+        }
+      ],
+      "title": "Hablemos de trabajo"
+    },
+    "now": {
+      "paragraph": "Vivo en pareja y me mantengo en forma gracias al mejor deporte del mundo: el frontenis. También me gusta escribir historias. A veces para mis amigos, otras para cualquier persona y, en muy contadas ocasiones, para mí mismo. De hecho, te voy a contar mi historia. Pero no te preocupes que no va a ser larga.",
+      "title": "Actualmente..."
+    },
+    "presentation": [
+      "Chico de un pueblo entre el interior y la costa.",
+      "Soy desarrollador web en España. Me encanta NodeJS. Me encanta el backend.\"",
+      "Llevo desde el 2019 programando y desde el 2020 me he dedicado al backend más exhaustivamente."
+    ],
+    "title": "Soy Jerónimo Gascón"
+  },
+  "navbar": {
+    "contact": "Contacto",
+    "download": {
+      "file": "./assets/files/dogEs.png",
+      "title": "Descargar CV"
+    },
+    "flags": {
+      "en": "Bandera británica",
+      "es": "Bandera española"
+    },
+    "home": "Inicio"
+  }
+}

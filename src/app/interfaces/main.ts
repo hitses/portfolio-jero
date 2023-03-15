@@ -4,3 +4,11 @@ export interface Contact {
     mess: string;
   };
 }
+
+export interface Jobs {
+  company: string;
+  date: string;
+  icons: string[];
+  link: string;
+  paragraphs: string[];
+}
