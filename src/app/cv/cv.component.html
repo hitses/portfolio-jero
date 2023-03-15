@@ -1,8 +1,8 @@
-<h3 (click)="toggle()">{{ company }} {{ isHidden ? "+" : "-" }}</h3>
+<h3 (click)="toggle()">{{ company || center }} {{ isHidden ? "+" : "-" }}</h3>
 <div *ngIf="!isHidden">
   <div>
     <p>{{ date }}</p>
-    <a href="{{ link }}" target="_blank">{{ company }} </a>
+    <a href="{{ link }}" target="_blank">{{ company || center }} </a>
   </div>
 
   <p *ngFor="let paragraph of paragraphs">{{ paragraph }}</p>

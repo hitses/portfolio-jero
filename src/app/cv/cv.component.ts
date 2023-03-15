@@ -7,6 +7,7 @@ import { Component, Input } from '@angular/core';
 })
 export class CvComponent {
   @Input() company!: string;
+  @Input() center!: string;
   @Input() date!: string;
   @Input() paragraphs!: string[];
   @Input() link!: string;

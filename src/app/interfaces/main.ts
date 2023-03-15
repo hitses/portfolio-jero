@@ -12,3 +12,11 @@ export interface Jobs {
   link: string;
   paragraphs: string[];
 }
+
+export interface Studies {
+  center: string;
+  date: string;
+  icons: string[];
+  link: string;
+  paragraphs: string[];
+}

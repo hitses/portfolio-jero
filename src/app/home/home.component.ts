@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import translationEs from '../../assets/i18n/es.json';
 import { TranslateService } from '@ngx-translate/core';
-import { Jobs } from '../interfaces/main';
+import { Jobs, Studies } from '../interfaces/main';
 
 @Component({
   selector: 'app-home',
@@ -10,12 +10,13 @@ import { Jobs } from '../interfaces/main';
 })
 export class HomeComponent {
   jobs: Jobs[] = [];
-  studies = translationEs.home.jobs;
+  studies: Studies[] = [];
   presentationParagraphs: string = '';
 
   constructor(private translate: TranslateService) {
     this.presentationParagraphsTranslation();
     this.jobsTranslations();
+    this.studiesTranslations();
   }
 
   presentationParagraphsTranslation() {
@@ -28,5 +29,13 @@ export class HomeComponent {
     this.translate.stream('home.jobs.jobs').subscribe((res: Jobs[]) => {
       this.jobs = res;
     });
+  }
+
+  studiesTranslations() {
+    this.translate
+      .stream('home.studies.studies')
+      .subscribe((res: Studies[]) => {
+        this.studies = res;
+      });
   }
 }
