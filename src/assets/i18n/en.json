@@ -140,5 +140,12 @@
       "subject": "Subject with minimum 2 characters",
       "message": "Message required"
     }
+  },
+  "footer": {
+    "icons": {
+      "github": "Github logo",
+      "linkedin": "Linkedin logo"
+    },
+    "captcha": "This site is protected by reCAPTCHA and the Google"
   }
 }
