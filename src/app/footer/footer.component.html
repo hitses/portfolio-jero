@@ -1,6 +1,9 @@
 <div>
   <a href="https://github.com/hitses" target="_blank"
-    ><img class="f-icon" src="./assets/imgs/icons/github.svg" alt="github icon"
+    ><img
+      class="f-icon"
+      src="./assets/imgs/icons/github.svg"
+      [alt]="'footer.icons.github' | translate"
   /></a>
 
   <a
@@ -9,9 +12,11 @@
     ><img
       class="f-icon"
       src="./assets/imgs/icons/linkedin.svg"
-      alt="linkedin icon"
+      [alt]="'footer.icons.linkedin' | translate"
   /></a>
 
-  <p><small>Esta web está protegida por reCAPTCHA y Google</small></p>
+  <p>
+    <small>{{ "footer.captcha" | translate }}</small>
+  </p>
   <p>Copyright &#169; {{ year }} - Jerónimo Gascón</p>
 </div>

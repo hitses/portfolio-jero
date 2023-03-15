@@ -139,6 +139,10 @@
       "email": "Electronic mail is invalid",
       "subject": "Subject with minimum 2 characters",
       "message": "Message required"
+    },
+    "buttons": {
+      "send": "Send",
+      "sending": "Sending"
     }
   },
   "footer": {

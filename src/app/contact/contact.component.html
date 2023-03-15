@@ -1,24 +1,24 @@
 <form [formGroup]="contact" (ngSubmit)="send()">
   <label [ngClass]="{ error: invalidField('name') }">{{
-    !invalidField("name")
-      ? "contact.labels.name"
-      : ("Name with minimum 2 characters" | translate)
+    !invalidField("name") ? name : invalidName
   }}</label>
   <input type="text" formControlName="name" />
   <label [ngClass]="{ error: invalidField('email') }">{{
-    !invalidField("email") ? "Email" : "Invalid email"
+    !invalidField("email") ? email : invalidEmail
   }}</label>
   <input type="text" formControlName="email" />
   <label [ngClass]="{ error: invalidField('subject') }">{{
-    !invalidField("subject") ? "Subject" : "Subject with minimum 2 characters"
+    !invalidField("subject") ? subject : invalidSubject
   }}</label>
   <input type="text" formControlName="subject" />
   <label [ngClass]="{ error: invalidField('message') }">{{
-    !invalidField("message") ? "Message" : "Message with minimum 2 characters"
+    !invalidField("message") ? message : invalidMessage
   }}</label>
   <textarea formControlName="message"></textarea>
   <button *ngIf="!sending" [disabled]="mailSended" type="submit">
-    {{ mailSended ? "✔︎" : "Send" }}
+    {{ mailSended ? "✔︎" : sendButton }}
   </button>
-  <button *ngIf="sending" disabled type="submit">Sending...</button>
+  <button *ngIf="sending" disabled type="submit">
+    {{ "contact.buttons.sending" | translate }}
+  </button>
 </form>

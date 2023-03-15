@@ -13,24 +13,29 @@ export class ContactComponent {
   mailSended: boolean = false;
   sending: boolean = false;
   contact: FormGroup = this.fb.group({
-    name: ['Jero', [Validators.required, Validators.minLength(2)]],
-    email: [
-      'jero@mailmeloinvento.com',
-      [Validators.required, Validators.email],
-    ],
-    subject: ['Subject', [Validators.required, Validators.minLength(2)]],
-    message: [
-      'Mi comentario',
-      [Validators.required, Validators.maxLength(250)],
-    ],
+    name: [, [Validators.required, Validators.minLength(2)]],
+    email: [, [Validators.required, Validators.email]],
+    subject: [, [Validators.required, Validators.minLength(2)]],
+    message: [, [Validators.required, Validators.maxLength(250)]],
   });
+  name!: string;
+  email!: string;
+  subject!: string;
+  message!: string;
+  invalidName!: string;
+  invalidEmail!: string;
+  invalidSubject!: string;
+  invalidMessage!: string;
+  sendButton!: string;
 
   constructor(
     private recaptchaV3Service: ReCaptchaV3Service,
     private fb: FormBuilder,
     private contactService: ContactService,
     private translate: TranslateService
-  ) {}
+  ) {
+    this.contactTranslations();
+  }
 
   invalidField(field: string) {
     return (
@@ -62,6 +67,41 @@ export class ContactComponent {
         this.sending = false;
       }
       this.contact.reset();
+    });
+  }
+
+  contactTranslations() {
+    this.translate.stream(`contact.labels.name`).subscribe((res: string) => {
+      this.name = res;
+    });
+
+    this.translate.stream(`contact.labels.email`).subscribe((res: string) => {
+      this.email = res;
+    });
+    this.translate.stream(`contact.labels.subject`).subscribe((res: string) => {
+      this.subject = res;
+    });
+    this.translate.stream(`contact.labels.message`).subscribe((res: string) => {
+      this.message = res;
+    });
+    this.translate.stream(`contact.invalids.name`).subscribe((res: string) => {
+      this.invalidName = res;
+    });
+    this.translate.stream(`contact.invalids.email`).subscribe((res: string) => {
+      this.invalidEmail = res;
+    });
+    this.translate
+      .stream(`contact.invalids.subject`)
+      .subscribe((res: string) => {
+        this.invalidSubject = res;
+      });
+    this.translate
+      .stream(`contact.invalids.message`)
+      .subscribe((res: string) => {
+        this.invalidMessage = res;
+      });
+    this.translate.stream(`contact.buttons.send`).subscribe((res: string) => {
+      this.sendButton = res;
     });
   }
 }

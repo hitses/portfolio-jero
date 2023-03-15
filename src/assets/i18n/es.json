@@ -139,6 +139,10 @@
       "email": "El correo electrónico no es válido",
       "subject": "Asunto con mínimo 2 caracteres",
       "message": "Mensaje obligatorio"
+    },
+    "buttons": {
+      "send": "Enviar",
+      "sending": "Enviando"
     }
   },
   "footer": {
