@@ -1,6 +1,8 @@
 <form [formGroup]="contact" (ngSubmit)="send()">
   <label [ngClass]="{ error: invalidField('name') }">{{
-    !invalidField("name") ? "Name" : "Name with minimum 2 characters"
+    !invalidField("name")
+      ? "contact.labels.name"
+      : ("Name with minimum 2 characters" | translate)
   }}</label>
   <input type="text" formControlName="name" />
   <label [ngClass]="{ error: invalidField('email') }">{{

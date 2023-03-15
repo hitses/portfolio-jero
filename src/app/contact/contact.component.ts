@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { TranslateService } from '@ngx-translate/core';
 import { ReCaptchaV3Service } from 'ng-recaptcha';
 import { ContactService } from '../contact.service';
 
@@ -27,7 +28,8 @@ export class ContactComponent {
   constructor(
     private recaptchaV3Service: ReCaptchaV3Service,
     private fb: FormBuilder,
-    private contactService: ContactService
+    private contactService: ContactService,
+    private translate: TranslateService
   ) {}
 
   invalidField(field: string) {
@@ -62,9 +64,4 @@ export class ContactComponent {
       this.contact.reset();
     });
   }
-
-  // TODO : Add REACTIVE form validations
-  // public send(form: NgForm): void {
-
-  // }
 }
