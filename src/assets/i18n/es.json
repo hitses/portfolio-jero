@@ -126,5 +126,19 @@
       "es": "Bandera española"
     },
     "home": "Inicio"
+  },
+  "contact": {
+    "labels": {
+      "name": "Nombre",
+      "email": "Correo electrónico",
+      "subject": "Asunto",
+      "message": "Mensaje"
+    },
+    "invalids": {
+      "name": "Nombre con mínimo 2 caracteres",
+      "email": "El correo electrónico no es válido",
+      "subject": "Asunto con mínimo 2 caracteres",
+      "message": "Mensaje obligatorio"
+    }
   }
 }

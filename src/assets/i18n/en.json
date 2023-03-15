@@ -126,5 +126,19 @@
       "es": "Spanish flag"
     },
     "home": "Home"
+  },
+  "contact": {
+    "labels": {
+      "name": "Name",
+      "email": "Electronic mail",
+      "subject": "Subject",
+      "message": "Message"
+    },
+    "invalids": {
+      "name": "Name with minimum 2 characters",
+      "email": "Electronic mail is invalid",
+      "subject": "Subject with minimum 2 characters",
+      "message": "Message required"
+    }
   }
 }
