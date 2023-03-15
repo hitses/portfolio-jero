@@ -65,7 +65,55 @@
       "I'm a web developer in Spain. I love NodeJS. I love the backend",
       "I have been programming since 2019 and since 2020 I have dedicated myself to the backend more exhaustively."
     ],
-    "title": "I'm Jerónimo Gascón"
+    "title": "I'm Jerónimo Gascón",
+    "studies": {
+      "title": "I can work as a web developer thanks to my studies",
+      "studies": [
+        {
+          "center": "GeeksHubs Academy",
+          "date": "2019 - 2019",
+          "link": "https://geekshubsacademy.com/",
+          "paragraphs": [
+            "Everything I learned in a practical and business-oriented way was offered to me at this BootCamp in Spain: GeeksHubs. It was a unique and unforgettable opportunity and they were the ones who contacted me.",
+            "There is a lot to tell here, since it was an intensive learning of 12 weeks.",
+            "We studied the basics of the web with HTML and CSS3 and SCSS as a style preprocessor together with the logic with Javascript.",
+            "We built a backend with Node.JS and Express.JS together with the Handlebars template engine.",
+            "We used relational databases with MySQL with the Sequalize ORM and non-relational with MongoDB and the Mongoose ORM.",
+            "We created several frontends with React together to a little bit of Redux and Angular 2+ together with Typescript.",
+            "Moving away from the code, we practiced Git and used the GitHub cloud repository.",
+            "And, finally, we were studying and practicing every day the agile methodology SCRUM.",
+            "Now that I see it all together and closely, we did a lot of things!"
+          ],
+          "icons": [
+            "html",
+            "css",
+            "scss",
+            "javascript",
+            "node",
+            "handlebars",
+            "mysql",
+            "mongo",
+            "react",
+            "redux",
+            "angular",
+            "typescript",
+            "git",
+            "github",
+            "scrum"
+          ]
+        },
+        {
+          "center": "Advanced degree in Web Application Development",
+          "date": "2017 - 2019",
+          "link": "https://iessanvicente.com/alu/daw/index.php",
+          "paragraphs": [
+            "And, finally, we end up at the beginning of the story. My first experience with programming was when I was young (even more so if possible) in the Advanced degree course in web programming at IES San Vicente, where I was able to access an official degree in this subject.",
+            "What I was able to study here was quite varied, among other things, Java or PHP, but they remained mere teachings and theories, since I have never done any work in companies that needed them. But in the web part of the second year we saw HTML and CSS, relational databases with MySQL, Javascript and some DevOps practice but, as I mentioned with Java or PHP, it was left in the notes."
+          ],
+          "icons": ["html", "css", "mysql", "javascript"]
+        }
+      ]
+    }
   },
   "navbar": {
     "contact": "Contact",
