@@ -14,6 +14,7 @@ import { environment } from '../environments/environment.development';
 import { CvComponent } from './cv/cv.component';
 import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
 import { createTranslateLoader } from './helpers/translationConfig';
+import { LoaderComponent } from './loader/loader.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import { createTranslateLoader } from './helpers/translationConfig';
     NavbarComponent,
     FooterComponent,
     CvComponent,
+    LoaderComponent,
   ],
   imports: [
     BrowserModule,
