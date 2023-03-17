@@ -12,11 +12,12 @@ import { ContactService } from '../contact.service';
 export class ContactComponent {
   mailSended: boolean = false;
   sending: boolean = false;
+  emailPattern: string = '^[a-z0-9._%+-]+@[a-z0-9.-]+\\.[a-z]{2,4}$';
   contact: FormGroup = this.fb.group({
     name: [, [Validators.required, Validators.minLength(2)]],
-    email: [, [Validators.required, Validators.email]],
+    email: [, [Validators.required, Validators.pattern(this.emailPattern)]],
     subject: [, [Validators.required, Validators.minLength(2)]],
-    message: [, [Validators.required, Validators.maxLength(250)]],
+    message: [, [Validators.required, Validators.maxLength(5000)]],
   });
   name!: string;
   email!: string;
@@ -51,7 +52,9 @@ export class ContactComponent {
     }
 
     const body = this.contact.value;
-    body.language = 'es';
+    if (localStorage.getItem('language'))
+      body.language = localStorage.getItem('language');
+    else body.language = 'en';
 
     this.sending = true;
 
