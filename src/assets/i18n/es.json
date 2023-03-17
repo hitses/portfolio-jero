@@ -138,7 +138,8 @@
     },
     "buttons": {
       "send": "Enviar",
-      "sending": "Enviando"
+      "sending": "Enviando",
+      "error": "Error del servidor. Por favor, contacte conmigo a"
     }
   },
   "footer": {

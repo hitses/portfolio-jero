@@ -12,6 +12,7 @@ import { ContactService } from '../contact.service';
 export class ContactComponent {
   mailSended: boolean = false;
   sending: boolean = false;
+  serverError: boolean = false;
   emailPattern: string = '^[a-z0-9._%+-]+@[a-z0-9.-]+\\.[a-z]{2,4}$';
   contact: FormGroup = this.fb.group({
     name: [, [Validators.required, Validators.minLength(2)]],
@@ -65,11 +66,17 @@ export class ContactComponent {
           console.debug(`Token [${token}] generated`);
         });
 
+      if (res.status === 500) {
+        this.sending = false;
+        this.serverError = true;
+      }
+
       if (res.status === 200) {
         this.mailSended = true;
         this.sending = false;
+
+        this.contact.reset();
       }
-      this.contact.reset();
     });
   }
 

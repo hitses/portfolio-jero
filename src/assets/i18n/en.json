@@ -138,7 +138,8 @@
     },
     "buttons": {
       "send": "Send",
-      "sending": "Sending"
+      "sending": "Sending",
+      "error": "Server error. Please contact me at"
     }
   },
   "footer": {
