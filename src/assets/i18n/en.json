@@ -75,13 +75,9 @@
           "link": "https://geekshubsacademy.com/",
           "paragraphs": [
             "Everything I learned in a practical and business-oriented way was offered to me at this BootCamp in Spain: GeeksHubs. It was a unique and unforgettable opportunity and they were the ones who contacted me.",
-            "There is a lot to tell here, since it was an intensive learning of 12 weeks.",
-            "We studied the basics of the web with HTML and CSS3 and SCSS as a style preprocessor together with the logic with Javascript.",
-            "We built a backend with Node.JS and Express.JS together with the Handlebars template engine.",
-            "We used relational databases with MySQL with the Sequalize ORM and non-relational with MongoDB and the Mongoose ORM.",
-            "We created several frontends with React together to a little bit of Redux and Angular 2+ together with Typescript.",
-            "Moving away from the code, we practiced Git and used the GitHub cloud repository.",
-            "And, finally, we were studying and practicing every day the agile methodology SCRUM.",
+            "There is a lot to tell here, since it was an intensive learning of 12 weeks. We studied the basics of the web with HTML and CSS3 and SCSS as a style preprocessor together with the logic with Javascript.",
+            "We built a backend with Node.JS and Express.JS together with the Handlebars template engine. We used relational databases with MySQL with the Sequalize ORM and non-relational with MongoDB and the Mongoose ORM. Together with the backend we created several frontends with React and a little bit of Redux and Angular 2+ together with Typescript.",
+            "Moving away from the code, we practiced Git and used the GitHub cloud repository and, finally, we were studying and practicing every day the agile methodology SCRUM.",
             "Now that I see it all together and closely, we did a lot of things!"
           ],
           "icons": [
@@ -118,7 +114,7 @@
   "navbar": {
     "contact": "Contact",
     "download": {
-      "file": "./assets/files/dogEn.jpg",
+      "file": "./assets/files/gasconJeronimoCvEn.pdf",
       "title": "Download CV"
     },
     "flags": {
