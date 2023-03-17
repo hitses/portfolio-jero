@@ -1,7 +1,38 @@
-li {
-  cursor: pointer;
-}
-
-.active {
-  color: coral;
+nav {
+  width: 100%;
+  background-color: var(--back);
+  ul {
+    margin-top: 0;
+    height: 50px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    li {
+      list-style: none;
+      a {
+        color: #fffefa;
+        text-decoration: none;
+        cursor: default;
+      }
+      a:hover {
+        color: #fecc00;
+      }
+      div {
+        width: 100px;
+        display: flex;
+        justify-content: space-evenly;
+        img {
+          height: 25px;
+          cursor: pointer;
+        }
+      }
+    }
+    li:hover {
+      color: #fecc00;
+    }
+  }
+  .active {
+    color: #fecc00;
+  }
 }

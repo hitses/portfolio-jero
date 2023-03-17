@@ -1,16 +1,17 @@
-<h3 (click)="toggle()">{{ company || center }} {{ isHidden ? "+" : "-" }}</h3>
-<div *ngIf="!isHidden">
-  <div>
-    <p>{{ date }}</p>
-    <a href="{{ link }}" target="_blank">{{ company || center }} </a>
+<div>
+  <h3 (click)="toggle()">{{ company || center }} {{ isHidden ? "+" : "-" }}</h3>
+  <div *ngIf="!isHidden">
+    <p class="date">{{ date }}</p>
+    <a href="{{ link }}" target="_blank">{{ company || center }}</a>
+
+    <p *ngFor="let paragraph of paragraphs">{{ paragraph }}</p>
+
+    <div class="icons">
+      <img
+        *ngFor="let icon of icons"
+        src="./assets/imgs/icons/{{ icon }}.svg"
+        alt="{{ icon | titlecase }} logo"
+      />
+    </div>
   </div>
-
-  <p *ngFor="let paragraph of paragraphs">{{ paragraph }}</p>
-
-  <img
-    *ngFor="let icon of icons"
-    width="25px"
-    src="./assets/imgs/icons/{{ icon }}.svg"
-    alt="{{ icon | titlecase }} logo"
-  />
 </div>

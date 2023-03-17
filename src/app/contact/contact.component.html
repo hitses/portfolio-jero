@@ -1,4 +1,4 @@
-<form [formGroup]="contact" (ngSubmit)="send()">
+<form [formGroup]="contact" (ngSubmit)="send()" autocomplete="off">
   <label [ngClass]="{ error: invalidField('name') }">{{
     !invalidField("name") ? name : invalidName
   }}</label>
@@ -19,6 +19,6 @@
     {{ mailSended ? "✔︎" : sendButton }}
   </button>
   <button *ngIf="sending" disabled type="submit">
-    {{ "contact.buttons.sending" | translate }}
+    <app-loader></app-loader>
   </button>
 </form>

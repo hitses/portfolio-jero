@@ -1,8 +1,38 @@
+@font-face {
+  font-family: "OxygenLight";
+  src: local("Oxygen"), url(./assets/fonts/Oxygen-Light.ttf) format("truetype");
+}
+@font-face {
+  font-family: "OxygenRegular";
+  src: local("Oxygen"),
+    url(./assets/fonts/Oxygen-Regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: "OxygenBold";
+  src: local("Oxygen"), url(./assets/fonts/Oxygen-Bold.ttf) format("truetype");
+}
+
+:root {
+  --primary: #fffefa;
+  --secondary: #fecc00;
+  --back: #0f0f0f;
+  --warning: #e40d1c;
+}
+
 html,
 body {
+  font-family: "OxygenRegular";
   margin: 0;
   padding: 0;
-  color: rgba(255, 255, 255, 0.971);
-  background-color: #2d2d2d;
+  color: var(--primary);
+  background-color: var(--back);
   box-sizing: border-box;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.grecaptcha-badge {
+  visibility: hidden;
 }

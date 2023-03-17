@@ -1,3 +1,51 @@
-.f-icon {
-  width: 45px;
+div {
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  img {
+    max-width: 280px;
+  }
+  div {
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    div {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      a {
+        margin: 10px;
+        img {
+          height: 40px;
+          width: 40px;
+        }
+      }
+    }
+    p {
+      margin: 0 1vw;
+      small {
+        font-size: 9px;
+      }
+    }
+  }
+}
+
+.captcha {
+  font-size: 10px;
+}
+
+@media (max-width: 718px) {
+  div {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    img {
+      max-width: 280px;
+      width: 100%;
+    }
+  }
 }
