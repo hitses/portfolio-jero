@@ -84,7 +84,7 @@ export class ContactComponent {
           this.sending = false;
           this.serverError = true;
         }
-      }, 3000);
+      }, 30000);
     });
   }
 
