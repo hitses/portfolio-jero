@@ -77,6 +77,14 @@ export class ContactComponent {
 
         this.contact.reset();
       }
+
+      setTimeout(() => {
+        if (!res.status) {
+          this.mailSended = false;
+          this.sending = false;
+          this.serverError = true;
+        }
+      }, 3000);
     });
   }
 

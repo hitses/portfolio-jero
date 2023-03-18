@@ -53,6 +53,13 @@ form {
       text-decoration: none;
     }
   }
+  p {
+    text-align: center;
+    a {
+      color: var(--secondary);
+      text-decoration: none;
+    }
+  }
   button:hover {
     background-color: var(--secondary);
     color: var(--back);

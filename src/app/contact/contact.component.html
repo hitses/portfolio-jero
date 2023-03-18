@@ -15,6 +15,7 @@
     !invalidField("message") ? message : invalidMessage
   }}</label>
   <textarea formControlName="message"></textarea>
+
   <button
     *ngIf="!sending && !serverError"
     [disabled]="mailSended"
@@ -22,11 +23,13 @@
   >
     {{ mailSended ? "✔︎" : sendButton }}
   </button>
-  <button *ngIf="serverError" disabled type="submit">
-    {{ "contact.buttons.error" | translate }}
-    <a href="mailto:contact@jerogassan.dev">contact@jerogassan.dev</a>
-  </button>
+
   <button *ngIf="sending" disabled type="submit">
     <app-loader></app-loader>
   </button>
+
+  <p *ngIf="serverError">
+    {{ "contact.buttons.error" | translate }}
+    <a href="mailto:contact@jerogassan.dev">contact@jerogassan.dev</a>
+  </p>
 </form>
