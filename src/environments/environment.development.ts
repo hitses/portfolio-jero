@@ -1,6 +1,7 @@
 export const environment = {
+  production: false,
   recaptcha: {
     siteKey: '6LdxEPgkAAAAADBMiMn2_ZxspldN51aSGOZugWBZ',
   },
-  baseUrl: 'https://jerodev.up.railway.app/api',
+  baseUrl: 'http://localhost:3000/api',
 };

@@ -1,30 +1,32 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
+import { ReactiveFormsModule } from '@angular/forms';
+
+import { RecaptchaV3Module, RECAPTCHA_V3_SITE_KEY } from 'ng-recaptcha';
+import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
 
 import { AppRoutingModule } from './app-routing.module';
-import { AppComponent } from './app.component';
-import { ReactiveFormsModule } from '@angular/forms';
-import { HomeComponent } from './home/home.component';
-import { ContactComponent } from './contact/contact.component';
-import { NavbarComponent } from './navbar/navbar.component';
-import { FooterComponent } from './footer/footer.component';
-import { RecaptchaV3Module, RECAPTCHA_V3_SITE_KEY } from 'ng-recaptcha';
-import { environment } from '../environments/environment.development';
-import { CvComponent } from './cv/cv.component';
-import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
 import { createTranslateLoader } from './helpers/translationConfig';
+import { environment } from '../environments/environment';
+
+import { AppComponent } from './app.component';
+import { ContactComponent } from './contact/contact.component';
+import { CvComponent } from './cv/cv.component';
+import { FooterComponent } from './footer/footer.component';
+import { HomeComponent } from './home/home.component';
 import { LoaderComponent } from './loader/loader.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent,
     ContactComponent,
-    NavbarComponent,
-    FooterComponent,
     CvComponent,
+    FooterComponent,
+    HomeComponent,
     LoaderComponent,
+    NavbarComponent,
   ],
   imports: [
     BrowserModule,
