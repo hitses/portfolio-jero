@@ -27,14 +27,14 @@ div {
     p {
       margin: 0 1vw;
       small {
-        font-size: 9px;
+        font-size: var(--small);
       }
     }
   }
 }
 
 .captcha {
-  font-size: 10px;
+  font-size: var(--small);
 }
 
 @media (max-width: 718px) {

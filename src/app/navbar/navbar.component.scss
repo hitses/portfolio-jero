@@ -1,5 +1,7 @@
 nav {
-  width: 100%;
+  width: 80%;
+  margin: 0 auto;
+  padding: 0;
   background-color: var(--back);
   ul {
     margin-top: 0;
@@ -8,12 +10,14 @@ nav {
     flex-flow: row nowrap;
     justify-content: space-evenly;
     align-items: center;
+    padding: 0;
     li {
       list-style: none;
       cursor: pointer;
       a {
         color: #fffefa;
         text-decoration: none;
+        font-size: var(--paragraph);
         cursor: default;
       }
       a:hover {
@@ -22,8 +26,9 @@ nav {
       div {
         width: 100px;
         display: flex;
-        justify-content: space-evenly;
+        justify-content: end;
         img {
+          padding-left: 20%;
           height: 25px;
           cursor: pointer;
         }
@@ -52,5 +57,22 @@ nav {
   }
   .active {
     color: #fecc00;
+  }
+}
+
+@media (max-width: 718px) {
+  nav {
+    width: 100%;
+    ul {
+      justify-content: space-between;
+      margin: 0 5%;
+      li {
+        div {
+          img {
+            margin: 0 0;
+          }
+        }
+      }
+    }
   }
 }

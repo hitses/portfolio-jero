@@ -2,22 +2,35 @@
   margin: 0 20%;
   padding: 15px 0 0 0;
   padding-top: 15px;
-  h1,
-  h2 {
-    margin: 0;
-    margin-top: 50px;
+  h1 {
+    margin: 50px 0 0 0;
     padding: 0 0 10px 0;
     font-family: "OxygenBold";
+    font-size: var(--title);
+    text-align: center;
+  }
+  h2 {
+    margin: 50px 0 0 0;
+    padding: 0 0 10px 0;
+    font-family: "OxygenBold";
+    font-size: var(--subtitle);
     text-align: center;
   }
 
   p {
     margin: 0;
     font-family: "OxygenLight";
+    font-size: var(--paragraph);
     text-align: center;
     a {
       text-decoration: none;
       color: #fecc00;
     }
+  }
+}
+
+@media (max-width: 718px) {
+  .info {
+    margin: 0 10%;
   }
 }
