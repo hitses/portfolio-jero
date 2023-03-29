@@ -145,7 +145,8 @@
   "footer": {
     "icons": {
       "github": "Logo de Github",
-      "linkedin": "Logo de Linkedin"
+      "linkedin": "Logo de Linkedin",
+      "blog": "Logo del jerogassan|blog"
     },
     "captcha": "Esta web está protegida por reCAPTCHA y Google"
   }
