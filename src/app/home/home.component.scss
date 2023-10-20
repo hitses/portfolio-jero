@@ -29,6 +29,13 @@
   }
 }
 
+#avatar-photo {
+  width: 80%;
+  // center the image
+  display: block;
+  margin: 50px auto 0 auto;
+}
+
 @media (max-width: 718px) {
   .info {
     margin: 0 10%;
