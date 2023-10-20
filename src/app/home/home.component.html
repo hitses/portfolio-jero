@@ -4,6 +4,13 @@
 
   <p *ngFor="let paragraph of presentationParagraphs">{{ paragraph }}</p>
 
+  <img
+    id="avatar-photo"
+    src="./assets/imgs/presentation_photo_jeronimo_gascon_sanchez.jpg"
+    [alt]="'home.avatarImage' | translate"
+    [title]="'home.avatarImage' | translate"
+  />
+
   <h2>{{ "home.now.title" | translate }}</h2>
   <p>{{ "home.now.paragraph" | translate }}</p>
 
