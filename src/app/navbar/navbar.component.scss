@@ -38,7 +38,7 @@ nav {
       color: #fecc00;
     }
     .btn {
-      cursor: default;
+      cursor: pointer;
       padding: 5px;
       border: 1px solid var(--secondary);
       background-color: var(--secondary);
@@ -48,11 +48,16 @@ nav {
       -ms-border-radius: 15px;
       -o-border-radius: 15px;
       a {
+        cursor: pointer;
         color: var(--back);
       }
       a:hover {
         color: var(--back);
       }
+    }
+    .btn:hover {
+      background-color: #d19600;
+      border: 1px solid #d19600;
     }
   }
   .active {
