@@ -4,13 +4,34 @@
     "jobs": {
       "jobs": [
         {
+          "company": "Muchosol",
+          "date": "2023 - actualidad",
+          "link": "https://www.muchosol.es/",
+          "icons": [
+            "javascript",
+            "typescript",
+            "php",
+            "node",
+            "angular",
+            "html",
+            "mysql",
+            "mongo",
+            "git",
+            "github"
+          ],
+          "paragraphs": [
+            "Mis andaduras me han llevado a un lugar llamado Muchosol. Una empresa de alquiler vacacional que me ha abierto las puertas para trabajar en un equipo de desarrollo de 5 personas. ¡Y qué equipo! Todos son muy buenos y me han acogido como a uno más. ¡Gracias, chicos!",
+            "Aquí estoy trabajando con tecnologías como las que ves más abajo. ¡Y seguro que me dejo alguna! Mi trabajo se orienta a la parte back de la aplicación, pero también he tenido que tocar la parte front. ¡Y me encanta!"
+          ]
+        },
+        {
           "company": "Capgemini",
-          "date": "2022 - actualidad",
+          "date": "2022 - 2023",
           "link": "https://www.capgemini.com/es-es/",
           "icons": ["javascript", "node", "aws", "dynamo"],
           "paragraphs": [
-            "Ahora trabajo en una empresa francesa llamada Capgemini. El sitio es estupendo, y me permite hacer cosas tan molonas como llevar proyectos en solitario o junto a compañeros igual o más buenos que yo. Seguro que os suena la aseguradora Mapfre.",
-            "Las tareas que suelo realizar son la implementación y mejora de funcionalidades en la parte back de proyectos de gran importancia. La tecnología que más suelo utilizar es NodeJS en la parte de servidor junto a Express en la mayoría de casos. Pero en alguna otra uso tecnologías de vanguardia como el serverless con lambdas de AWS."
+            "Antes de unas estupendas 'vacaciones con mucho sol' trabajé en una empresa francesa llamada Capgemini. El sitio es estupendo, y me permitó hacer cosas tan molonas como llevar proyectos en solitario o junto a compañeros igual o más buenos que yo. Seguro que os suena la aseguradora Mapfre.",
+            "Las tareas que suelía realizar son la implementación y mejora de funcionalidades en la parte back de proyectos de gran importancia. La tecnología que más utilizaba era NodeJS en la parte de servidor junto a Express en la mayoría de casos. Pero en alguna otra ocasión usaba tecnologías de vanguardia como el serverless con lambdas de AWS."
           ]
         },
         {

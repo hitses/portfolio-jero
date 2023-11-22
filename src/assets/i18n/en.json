@@ -4,13 +4,34 @@
     "jobs": {
       "jobs": [
         {
+          "company": "Muchosol",
+          "date": "2023 - present",
+          "link": "https://www.muchosol.co.uk/",
+          "icons": [
+            "javascript",
+            "typescript",
+            "php",
+            "node",
+            "angular",
+            "html",
+            "mysql",
+            "mongo",
+            "git",
+            "github"
+          ],
+          "paragraphs": [
+            "My wanderings have taken me to a place called Manyol. A vacation rental company that has opened the doors for me to work in a development team of 5 people. And what a team! They are all very good and have welcomed me as one of their own. Thanks guys!",
+            "Here I am working with technologies like the ones you see below. And I'm sure I'll leave someone! My work is oriented towards the backend of the application, but I have also had to touch the front part a little. And I love it!"
+          ]
+        },
+        {
           "company": "Capgemini",
-          "date": "2022 - present",
+          "date": "2022 - 2023",
           "link": "https://www.capgemini.com/",
           "icons": ["javascript", "node", "aws", "dynamo"],
           "paragraphs": [
-            "I'm now working for a French company called Capgemini. It is a great place, and it allows me to do such cool things as carry out projects alone or together with colleagues who are just as good or even better than me.",
-            "The tasks that I usually carry out are the implementation and improvement of functionalities in the back part of projects of great importance. The technology that I use the most is NodeJS on the server part with Express in most cases. But in some other ways, I use cutting-edge technologies such as serverless with AWS lambdas."
+            "Before a great 'holidays with very much sun (mucho sol)' I worked at a French company called Capgemini. The site is great, and it allowed me to do things as cool as carrying out projects alone or with colleagues just as good or better than me. The insurance company Mapfre is surely familiar to you.",
+            "The tasks I usually perform are the implementation and improvement of functionalities in the back end of very important projects. The technology I used the most was NodeJS on the server side along with Express in most cases. But on some other occasions I used cutting-edge technologies such as serverless with AWS lambdas."
           ]
         },
         {
